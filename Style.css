@@ -1,0 +1,86 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f9f9f9;
+  color: #222;
+  min-height: 100vh;
+  padding: 2rem 1rem 4rem;
+}
+
+header { text-align: center; margin-bottom: 2rem; }
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.search-area {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 480px;
+  margin: 0 auto 0.5rem;
+}
+
+select {
+  flex: 1;
+  padding: 0.65rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+button.buscar {
+  padding: 0.65rem 1.2rem;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-random {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  padding: 0.45rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#status {
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 1rem 0;
+}
+
+#result {
+  max-width: 520px;
+  margin: 0 auto;
+  display: none;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.images img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.info {
+  padding: 1rem;
+}
