@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gato Consumado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Gato Consumado</h1>
+  <p>Explorador de raças de gatos</p>
+</header>
+
+<div class="search-area">
+  <select id="sel"><option>Carregando...</option></select>
+  <button class="buscar" id="btn" onclick="buscar()" disabled>Buscar</button>
+</div>
+
+<button class="btn-random" onclick="aleatorio()">Raça aleatória</button>
+
+<div id="status"></div>
+<div id="result"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
