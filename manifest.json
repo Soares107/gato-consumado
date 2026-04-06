@@ -1,0 +1,17 @@
+{
+  "name": "Gato Consumado",
+  "short_name": "GatoCons",
+  "description": "Explorador de raças de gatos",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f9f9f9",
+  "theme_color": "#222222",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/616/616430.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
